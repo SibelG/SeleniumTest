@@ -1,0 +1,15 @@
+<suite name ="mysuite">
+	<tests name="my tests 2">
+		<test name="Include test">
+			<classes>
+				<class name="project5testng.DependentMethods"/>
+			<methods>
+				<include name="openapp"/>
+				<exclude name="login"/>
+			</methods>
+			
+			</classes>
+		</test>
+	</tests>
+	
+</suite>
